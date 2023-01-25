@@ -57,7 +57,7 @@ header nav ul li:last-of-type a{
     max-width: 580px;
     margin: auto;
     padding-top: 461px;
-    padding-bottom: 70px;
+    padding-bottom: 41px;
 }
 .subtitle{
     font-family: 'Poppins';
@@ -91,6 +91,29 @@ header nav ul li:last-of-type a{
 .backing{
     margin-top: 18px;
 }
+
+.coordinates{
+    display: flex;
+    justify-content: flex-end;
+}
+.coordinates ul{
+    display: flex;
+    list-style: none;
+}
+.coordinates ul li span{
+    font: 400 12px/12px 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+.coordinates ul li:last-of-type span{
+    margin-right: 40px;
+}
+.coordinates ul li img{
+    margin-left: 16px;
+}
+
+/*baner_before_footer*/
 .baner_before_footer{
     background: #000000;
 }
@@ -120,21 +143,26 @@ header nav ul li:last-of-type a{
     padding-bottom: 31px;
 }
 .btn{
+    display: flex;
+    align-items: center;
+    max-width: 154px;
     justify-content: center;
     border-radius: 15px;
-    padding: 9px 10px 13px 16px;
+    padding: 9px 10px 13px 6px;
     background: #FFFFFF;
     color: #000000;
     font-size: 16px;
     letter-spacing: 0.4px;
     text-decoration: none;
+    margin: auto;
 }
 .btn::before{
     content: "";
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: black;
-    padding: 0px 24px 0px 0px;
+    margin-right: 6px;
+    display: inline-block;
 }
 

@@ -52,12 +52,13 @@ header nav ul li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 86px);
+    position: relative;
 }
 .main_baner_text{
     max-width: 580px;
     margin: auto;
     padding-top: 461px;
-    padding-bottom: 41px;
+    padding-bottom: 71px;
 }
 .subtitle{
     font-family: 'Poppins';
@@ -92,26 +93,97 @@ header nav ul li:last-of-type a{
     margin-top: 18px;
 }
 
-.coordinates{
+.bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
     display: flex;
-    justify-content: flex-end;
-}
-.coordinates ul{
-    display: flex;
+    align-items: center;
     list-style: none;
 }
-.coordinates ul li span{
-    font: 400 12px/12px 'Poppins';
+.bottom_icon li{
+    font-family: 'Poppins';
     font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
     color: #FFFFFF;
-    margin-left: 6px;
-}
-.coordinates ul li:last-of-type span{
-    margin-right: 40px;
-}
-.coordinates ul li img{
     margin-left: 16px;
 }
+.bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/picture.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 7px;
+}
+.bottom_icon li:nth-child(2):before{
+    background-image: url("../images/picture2.svg");
+}
+.bottom_icon li:nth-child(3):before{
+    background-image: url("../images/picture3.svg");
+    width: 32px;
+}
+.bottom_icon li:nth-child(4):before{
+    background-image: url("../images/picture4.svg");
+    width: 10px;
+    height: 16px;
+}
+.mountain, .monstera, .sky_mountains{
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.mountain{
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+}
+.monstera{
+    background-image: url("../images/monstera.jpg");
+    background-size: cover;
+}
+.sky_mountains{
+    background-image: url("../images/sky_mountains.jpg");
+    background-size: cover;
+}
+
+.mountain_content{
+    width: 296px;
+    margin-right: 61px;
+}
+.monstera_content{
+    width: 273px;
+    margin-right: 87px;
+}
+.sky_mountains_content {
+    width: 254px;
+    margin-right: 106px;
+}
+.mountain, .monstera, .sky_mountains h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mountain, .monstera, .sky_mountains p{
+    ont-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+
 
 /*baner_before_footer*/
 .baner_before_footer{

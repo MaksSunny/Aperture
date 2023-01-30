@@ -160,21 +160,21 @@ header nav ul li:last-of-type a{
     width: 273px;
     margin-right: 87px;
 }
-.sky_mountains_content {
+.sky_mountains_content{
     width: 254px;
     margin-right: 106px;
 }
-.mountain, .monstera, .sky_mountains h4{
+.baner_subtitle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 2px;
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: #FFFFFF;
 }
-.mountain, .monstera, .sky_mountains p{
+.mountain_content, .monstera_content, .sky_mountains_content p{
     ont-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

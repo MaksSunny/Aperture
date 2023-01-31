@@ -10,6 +10,7 @@ header{
 .container{
     max-width: 1200px;
     margin: auto;
+    margin: inherit;
 }
 header .container{
     padding: 0 20px 0 32px;
@@ -53,11 +54,13 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: calc(100vh - 86px);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .main_baner_text{
     max-width: 580px;
     margin: auto;
-    padding-top: 461px;
     padding-bottom: 71px;
 }
 .subtitle{
@@ -132,6 +135,73 @@ header nav ul li:last-of-type a{
     width: 10px;
     height: 16px;
 }
+/*four_photos*/
+
+.second_baner{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+.second_baner h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.second_baner h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.second_baner .four_photos h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.second_baner .four_photos p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.four_photos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1168px;
+    margin: auto;
+}
+.one_of_four{
+    max-width: 576px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.photo_content{
+    width: 514px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+/*three section*/
 .mountain, .monstera, .sky_mountains{
     min-height: 600px;
     display: flex;
@@ -142,14 +212,17 @@ header nav ul li:last-of-type a{
 .mountain{
     background-image: url("../images/mountain.jpg");
     background-size: cover;
+    background-position: center;
 }
 .monstera{
     background-image: url("../images/monstera.jpg");
     background-size: cover;
+    background-position: center;
 }
 .sky_mountains{
     background-image: url("../images/sky_mountains.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .mountain_content{
@@ -175,7 +248,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
 }
 .mountain_content, .monstera_content, .sky_mountains_content p{
-    ont-family: 'Poppins';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -226,7 +299,6 @@ header nav ul li:last-of-type a{
     font-size: 16px;
     letter-spacing: 0.4px;
     text-decoration: none;
-    margin: auto;
 }
 .btn::before{
     content: "";
@@ -237,4 +309,6 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     display: inline-block;
 }
-
+.baner_before_footer_content a{
+    margin: auto;
+}

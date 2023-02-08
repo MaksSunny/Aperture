@@ -184,8 +184,8 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1168px;
     margin: auto;
+    max-width: 1168px;
 }
 .one_of_four{
     max-width: 576px;
@@ -204,7 +204,6 @@ header nav ul li:last-of-type a{
 }
 .tolls{
     position: relative;
-    min-height: 540px;
     background-color: black;
 }
 .tolls .img_bg{

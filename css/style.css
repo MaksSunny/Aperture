@@ -342,7 +342,17 @@ header nav ul li:last-of-type a{
     display: flex;
     align-items: center;
 }
-
+.past_clients a img{
+    max-width: 128px;
+    align-items: center;
+}
+ .owl-item{
+    text-align: center;
+}
+ .owl-stage{
+     display: flex;
+     align-items: center;
+ }
 /*baner_before_footer*/
 .baner_before_footer{
     background: #000000;

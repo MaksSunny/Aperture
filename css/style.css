@@ -353,6 +353,45 @@ header nav ul li:last-of-type a{
      display: flex;
      align-items: center;
  }
+.owl-nav .owl-per:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -30px;
+    top: 30px;
+}
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -30px;
+    top: 30px;
+}
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(180deg);
+    display: inline-block;
+}
+#dialog{
+    background: black;
+}
+#dialog p{
+    color: #FFFFFF;
+}
 /*baner_before_footer*/
 .baner_before_footer{
     background: #000000;

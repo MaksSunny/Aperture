@@ -17,18 +17,18 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header .nav ul{
     display: flex;
     list-style: none;
     align-items: center;
 }
-header nav ul li{
+header .nav ul li{
     margin-left: 32px;
 }
-header nav ul li:first-of-type{
+header .nav ul li:first-of-type{
     margin-right: 24px;
 }
-header nav ul li a{
+header .nav ul li a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -37,10 +37,10 @@ header nav ul li a{
     color: #FFFFFF;
     text-decoration: none;
 }
-header nav ul li:first-of-type a{
+header .nav ul li:first-of-type a{
     font-size: 13px;
 }
-header nav ul li:last-of-type a{
+header .nav ul li:last-of-type a{
     border-radius: 14px;
     padding: 11px 20px;
     background: #FFFFFF;
@@ -561,4 +561,8 @@ footer form button{
     border-radius: 11px;
     width: 63px;
     cursor: pointer;
+}
+.logo{
+    position: relative;
+    z-index: 3;
 }
